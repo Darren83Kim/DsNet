@@ -1,0 +1,17 @@
+﻿################################################################################
+# 이 .gitignore 파일은 Microsoft(R) Visual Studio에서 자동으로 만들어졌습니다.
+################################################################################
+
+/SharedCode/dart
+DsDB/bin
+DsDB/스키마 로그 가져오기
+DsPacket/bin
+DsPacket/obj/Debug
+DsDB/obj/Debug
+DsWeb/obj/Debug
+DsPacket/obj
+DsWeb/.vs
+DsWeb/obj
+DsDB/DsDB.dbmdl
+DsDB/DsDB.jfm
+DsWeb/bin
