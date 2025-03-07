@@ -32,6 +32,18 @@ namespace DsWebServer
             });
 
             services.AddControllers();
+
+            // Add CORS policy
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowFlutterClient",
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                               .AllowAnyHeader()
+                               .AllowAnyMethod();
+                    });
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -43,6 +55,9 @@ namespace DsWebServer
 
             app.UseRouting();
             app.UseSession();
+
+            // Use CORS policy
+            app.UseCors("AllowFlutterClient");
 
             app.UseEndpoints(endpoints =>
             {
