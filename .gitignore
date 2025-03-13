@@ -16,3 +16,7 @@ DsDB/DsDB.dbmdl
 DsDB/DsDB.jfm
 DsWeb/bin
 DsWeb/Logs
+DsSocketServer/bin
+DsSocketServer/obj/Debug
+DsSocket/bin
+DsSocket/obj/Debug
