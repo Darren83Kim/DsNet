@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DsNet\\DsSocketServer\\DsSocketServer.csproj": {}
+    "D:\\DsNet\\DsSocket\\DsSocketServer.csproj": {}
   },
   "projects": {
-    "D:\\DsNet\\DsSocketServer\\DsSocketServer.csproj": {
+    "D:\\DsNet\\DsSocket\\DsSocketServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DsNet\\DsSocketServer\\DsSocketServer.csproj",
+        "projectUniqueName": "D:\\DsNet\\DsSocket\\DsSocketServer.csproj",
         "projectName": "DsSocketServer",
-        "projectPath": "D:\\DsNet\\DsSocketServer\\DsSocketServer.csproj",
+        "projectPath": "D:\\DsNet\\DsSocket\\DsSocketServer.csproj",
         "packagesPath": "C:\\Users\\round1studio_34\\.nuget\\packages\\",
-        "outputPath": "D:\\DsNet\\DsSocketServer\\obj\\",
+        "outputPath": "D:\\DsNet\\DsSocket\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "SuperSocketLite": {
+              "target": "Package",
+              "version": "[0.17.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

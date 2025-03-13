@@ -9,7 +9,7 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DsDB", "..\DsDB\DsDB.sqlpro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DsPacket", "..\DsPacket\DsPacket.csproj", "{B3197450-010B-433C-B796-0C6ABD0473F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DsSocketServer", "..\DsSocketServer\DsSocketServer.csproj", "{C9696A84-9E81-4E3D-8036-4385E5C45812}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DsSocketServer", "..\DsSocket\DsSocketServer.csproj", "{CC02962D-7E79-4EA0-945D-9C57444AFAB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +31,10 @@ Global
 		{B3197450-010B-433C-B796-0C6ABD0473F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3197450-010B-433C-B796-0C6ABD0473F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3197450-010B-433C-B796-0C6ABD0473F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C9696A84-9E81-4E3D-8036-4385E5C45812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C9696A84-9E81-4E3D-8036-4385E5C45812}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C9696A84-9E81-4E3D-8036-4385E5C45812}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C9696A84-9E81-4E3D-8036-4385E5C45812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC02962D-7E79-4EA0-945D-9C57444AFAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC02962D-7E79-4EA0-945D-9C57444AFAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC02962D-7E79-4EA0-945D-9C57444AFAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC02962D-7E79-4EA0-945D-9C57444AFAB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
